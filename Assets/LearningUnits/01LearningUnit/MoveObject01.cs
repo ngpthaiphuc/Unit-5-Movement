@@ -18,6 +18,7 @@ public class MoveObject01 : MonoBehaviour
     {
         // My position equals my position PLUS 
 	    // where I want to be by the end of this frame...
-        transform.position = transform.position + Vector3.zero;
+        transform.position = transform.position + moveDirection;
+        //Added moveDirection vector to move the cube (previously 0 vector)
     }
 }

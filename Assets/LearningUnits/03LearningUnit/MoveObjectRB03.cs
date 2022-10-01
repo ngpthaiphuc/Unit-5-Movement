@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveObjectRB03 : MonoBehaviour
 {
+    //Changed the mass of the blue cube to be smaller
+
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

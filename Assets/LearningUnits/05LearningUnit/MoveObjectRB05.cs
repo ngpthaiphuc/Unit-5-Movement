@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveObjectRB05 : MonoBehaviour
 {
+    //Make red cube not kinematic (can actually be moved with force)
+
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update

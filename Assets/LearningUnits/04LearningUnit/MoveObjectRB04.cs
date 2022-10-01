@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveObjectRB04 : MonoBehaviour
 {
+    //Changed the mass of the red cube to be just right
+
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update
